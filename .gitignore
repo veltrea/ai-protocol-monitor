@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Build output
+dist/
+
+# Upstream dependencies (should be managed separately)
+upstream/
+
+# Logs and temporary files
+*.log
+viewer_log.txt
+walkthrough.md.metadata.json
+dev.log
+viewer_log.txt
+
+# Local config
+.env
+.env.local
+.vscode/
+.idea/
